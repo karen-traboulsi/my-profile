@@ -1,0 +1,98 @@
+body{
+	background-color: #F3DDD4;
+	color:rgb(0, 0, 0);
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	letter-spacing: 3px;
+}
+
+h1{
+	color:#834A45 ;
+	font-size: 50px ;
+	font-weight: 300;
+	text-align: center;
+	font-family: Do Hyeon , sans-serif;
+
+}
+
+h2{
+	color:#834A45 ;
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: Do Hyeon, sans-serif;
+}
+
+	a{
+	text-decoration: none;
+	color: #834A45;
+}
+
+
+img{
+	width: 150px;
+	height: 150px;
+	image: center;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+div{
+	background-color: #EEE8E4;
+	padding: 50px;
+	margin: 100px;
+	box-shadow: 0 15px 35px #834A45;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.btn{
+	background-color: #834A45;
+	color:#EEE8E4;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn:hover{
+	background-color: black;
+	color:#EEE8E4;
+}
+
+.list li{
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+	padding: 10px;
+	color:#EEE8E4;
+	font-size: 50px;
+}
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#container {
+	background-color: #F3DDD4;
+	width: 1000px;
+	margin: 40px auto;
+	box-shadow: 0 0 0;
+	border-radius: 4px;
+	text-align: center;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width:600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
